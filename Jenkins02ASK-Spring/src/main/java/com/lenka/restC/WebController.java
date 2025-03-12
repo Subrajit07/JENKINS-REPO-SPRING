@@ -10,4 +10,9 @@ public class WebController {
 	public String firstLink() {
 		return "Jenkins first link";
 	}
+	
+	@GetMapping("/second")
+	public String secondLink() {
+		return "Jenkins second link";
+	}
 }
